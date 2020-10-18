@@ -1,0 +1,27 @@
+userDetail:
+  username: 'lines_and_spaces_'
+  password: 'M@inbook1'
+
+loginPage:
+  email: //*[@name='username']
+  password: //*[@name='password']
+
+prompt:
+  saveInfo: //button[text()='Save Info']
+  turnOn: //button[text()='Turn On']
+  notNow: //button[text()='Not Now']
+
+
+dashboard:
+  search: //span[text()='Search']
+  txtSearch: //input[@placeholder='Search']
+  text: '#penandinkdrawing'
+  result: (//span[contains(@class,'Hashtag')])[1]
+
+searchResult:
+  follow: //button[text()='Follow']
+  share: (//button[@class='wpO6b '])[4]//*[name()='svg' and @fill='#262626']
+  likebutton: (//button[@class='wpO6b '])[2]
+  like: (//*[name()='svg' and @aria-label='Like' and @height='24'])
+  unlike: (//*[name()='svg' and @aria-label='Unlike' and @height='24'])
+  next: //*[@class=' _65Bje  coreSpriteRightPaginationArrow']
